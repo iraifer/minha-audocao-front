@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1db050e0.chunk.css",
+    "main.js": "/static/js/main.b9b5e062.chunk.js",
+    "main.js.map": "/static/js/main.b9b5e062.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1b26ff80.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1b26ff80.js.map",
+    "static/js/2.a6807ec4.chunk.js": "/static/js/2.a6807ec4.chunk.js",
+    "static/js/2.a6807ec4.chunk.js.map": "/static/js/2.a6807ec4.chunk.js.map",
+    "static/js/3.fc586763.chunk.js": "/static/js/3.fc586763.chunk.js",
+    "static/js/3.fc586763.chunk.js.map": "/static/js/3.fc586763.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1db050e0.chunk.css.map": "/static/css/main.1db050e0.chunk.css.map",
+    "static/js/2.a6807ec4.chunk.js.LICENSE.txt": "/static/js/2.a6807ec4.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/static/media/portrait-adorable-little-doggie_23-2148316293.a3647e0e.jpg",
+    "static/media/nicepage.css": "/static/media/b9a6c898e8c169c212e3ed6d7687d24771049a431eeb147f5688681307f904b43b50362907bcea2ed894f5d83fd8138a3a71f112609d3a80933556_1280.a41d7899.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b26ff80.js",
+    "static/js/2.a6807ec4.chunk.js",
+    "static/css/main.1db050e0.chunk.css",
+    "static/js/main.b9b5e062.chunk.js"
+  ]
+}
