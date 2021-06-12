@@ -9,14 +9,16 @@ import './index.css';
 import Router from './Router';
 import reportWebVitals from './reportWebVitals';
 
-import PessoaContextProvider from './contexts/PessoaContextProvider';
+import store from './store';
+
+import { Provider } from 'react-redux';
 
 function render() {
     ReactDOM.render (
         <React.StrictMode>
-            <PessoaContextProvider>
+            <Provider store={store}>
                 <Router/>
-            </PessoaContextProvider>
+            </Provider>
         </React.StrictMode>,
         document.getElementById('root')
     );

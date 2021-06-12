@@ -1,15 +1,14 @@
 import React from 'react';
-import Header from '../components/Header';
-// import Cadastro from '../components/Cadastro';
-import Footer from '../components/Footer';
+import Header from '../components/Header/Header';
+import Cadastro from '../components/Cadastro/Cadastro';
+
 
 
 function CadastroApp() {
   return (
     <div className="CadastroApp">
       <Header/>
-      {/* <Cadastro/> */}
-      <Footer/>
+      <Cadastro/>
      </div>
   );
 }
