@@ -1,6 +1,7 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import App from "./apps/App";
 import CadastroApp from "./apps/CadastroApp"
+import lista from "./apps/Lista"
 
 const Router = () => {
 return (<BrowserRouter><Switch>

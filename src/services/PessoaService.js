@@ -1,4 +1,5 @@
-import http from "../http-common";
+import http from "../http/http-common";
+
 
 const getPessoaAll = () => {
   return http.get("/pessoa/all");
@@ -9,7 +10,7 @@ const getPessoa = id => {
 };
 
 const createPessoa = data => {
-  return http.post("/pessoa/add", data);
+  return http.post("/pessoa/add", data); 
 };
 
 const updatePessoa = (id, data) => {

@@ -7,9 +7,9 @@ import {
   
   import PessoaDataService from "../services/PessoaService";
   
-  export const createPessoa = (idPessoa, nome, sobrenome, email, imagem, senha) => async (dispatch) => {
+  export const createDataPessoa = (idPessoa, nome, sobrenome, email, imagem, senha) => async (dispatch) => {
     try {
-      const res = await PessoaDataService.create({ idPessoa, nome, sobrenome, email, imagem, senha });
+      const res = await PessoaDataService.createPessoa({ idPessoa, nome, sobrenome, email, imagem, senha });
   
       dispatch({
         type: CREATE_PESSOA,
